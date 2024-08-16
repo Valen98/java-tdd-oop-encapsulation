@@ -112,6 +112,9 @@ I want to be able to turn the car left and right.
 I want to be able to replace the battery with either kind as needed.
 ```
 
+
+![Diagram](RemoteCarDiagram.png)
+
 ## Next steps
 
 Now that you've practiced encapsulation, introduce this concept into your Bob's Bagels OOP exercise (the OOP version not the single class one). 
