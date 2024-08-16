@@ -18,6 +18,12 @@ public class CarTest {
         Battery battery = new Battery("Rechargeable");
         Remote remote = new Remote("Simple", new Car("Blue", battery));
 
-        Assertions.assertTrue(remote.turnLeft());
+        //Turn Left
+        Assertions.assertEquals(2, remote.turn(2));
+        //Turn right
+        Assertions.assertEquals(1, remote.turn(1));
+        //Go Straight
+        Assertions.assertEquals(0, remote.turn(0));
+
     }
 }

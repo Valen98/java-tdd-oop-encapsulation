@@ -8,4 +8,9 @@ public class Remote {
         this.type = type;
         this.connectedCar = connectedCar;
     }
+
+    public int turn(int leftOrRight) {
+        //Left is 1 and right is 2 and straight is 0.
+        return leftOrRight;
+    }
 }
